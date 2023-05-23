@@ -9,7 +9,6 @@ import Collapse from '../../components/collapse/Collapse';
 import greyStar from '../../assets/grey_star.png';
 import redStar from '../../assets/red_star.png';
 
-
 export default function Accomodation() {
 
     const [imageSlider, setImageSlider] = useState([]);
