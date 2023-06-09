@@ -4,10 +4,15 @@
     @include flex(column);
     gap: 50px;
     width: 100%;
-    height: 209px;
+    height: 200px;
+    max-height: 200px;
     background-color: #000;
 
     &_coryright {
         color: $color-primary;
+    }
+
+    @media screen and (max-width: 900px) {
+        height: 200px;
     }
 }

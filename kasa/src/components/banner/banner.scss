@@ -7,13 +7,15 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/home_banner.png');
     background-position: center;
     background-size: cover;
-    height: 223px;
+    max-height: 200px;
+    height: 200px;
     padding: 20px;
     max-width: 95%;
     margin: 43px auto;
 
     @media screen and (max-width: 550px) {
         margin: 20px auto;
+        max-height: 120px;
         height: 120px;
     }
 
@@ -21,7 +23,7 @@
         position: relative;
         @include flex;
         border-radius: 25px;
-        height: 223px;
+        height: 200px;
         padding: 20px;
         max-width: 95%;
         margin: 43px auto;

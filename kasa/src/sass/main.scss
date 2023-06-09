@@ -1,3 +1,14 @@
 @import 'base/_reset';
 @import 'utils/_variables';
 @import 'utils/_mixins';
+
+.header,
+.banner,
+.banner_about,
+.home_gallery,
+.carousel,
+.accomodation {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
