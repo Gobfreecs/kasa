@@ -8,8 +8,15 @@
     margin: 0 auto;
 
     &_collapse {
-        margin: 40px auto;
+        margin: 20px auto;
     }
 
     min-height: calc(100vh - 595px);
+}
+
+@media screen and (max-width: 750px) {
+    * {
+        margin: 15px;
+    }
+
 }
